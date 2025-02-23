@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE-edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+
+  <title>Spin Wheel</title>
+  </head>
+  <body>
+    <div class="spin-wheel">
+        <div class="spin">Spin</div>
+        <div class="wheel-container">
+            <div class="wheel-item" style="--i:1;--clr:#db7093;"><span>1</span></div>
+            <div class="wheel-item" style="--i:2;--clr:#ff7f50;"><span>2</span></div>
+            <div class="wheel-item" style="--i:3;--clr:#ff4500;"><span>3</span></div>
+            <div class="wheel-item" style="--i:4;--clr:#ff6347;"><span>4</span></div>
+            <div class="wheel-item" style="--i:5;--clr:#ff8c00;"><span>5</span></div>
+            <div class="wheel-item" style="--i:6;--clr:#ffa07a;"><span>6</span></div>
+            <div class="wheel-item" style="--i:7;--clr:#ff69b4;"><span>7</span></div>
+            <div class="wheel-item" style="--i:8;--clr:#ff1493;"><span>8</span></div>
+            <div class="wheel-item" style="--i:9;--clr:#ff00ff;"><span>9</span></div>
+            <div class="wheel-item" style="--i:10;--clr:#bb18bb;"><span>10</span></div>
+            <div class="wheel-item" style="--i:11;--clr:#550b55;"><span>11</span></div>
+            <div class="wheel-item" style="--i:12;--clr:#b890b8;"><span>12</span></div>
+        </div>
+    </div>
+    <script>
+        let wheel=document.querySelector('.wheel-container');
+        let spin=document.querySelector('.spin');
+        let value= Math.ceil(Math.random()*3600);
+
+        spin.onclick= function(){
+            wheel.style.transform="rotate("+value+"deg)";
+            wheel.style.transition='all 3s ease-in-out';
+            value+= Math.ceil(Math.random()*3600);
+        }
+    </script>
+  </body>
+</html>
