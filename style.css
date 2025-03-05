@@ -196,8 +196,8 @@ body{
 
 @media (max-width: 640px) {
     .spin-wheel {
-        width: 580px;
-        height: 580px;
+        width: 560px;
+        height: 560px;
     }
     .spin-wheel .spin {
         width: 50px;
@@ -212,8 +212,8 @@ body{
 
 @media (max-width: 480px) {
     .spin-wheel {
-        width: 450px;
-        height: 450px;
+        width: 420px;
+        height: 420px;
     }
     .spin-wheel .spin {
         width: 40px;
