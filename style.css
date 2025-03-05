@@ -95,8 +95,8 @@ body{
 
 .spin-wheel{
     position: relative;
-    width: 500px;
-    height: 500px;
+    width: 600px;
+    height: 600px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -106,8 +106,8 @@ body{
 }
 
 .spin-wheel .spin{
-    width: 70px;
-    height: 70px;
+    width: 80px;
+    height: 80px;
     border-radius: 50%;
     background: var(--accent-color);
     position: absolute;
