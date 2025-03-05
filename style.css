@@ -196,8 +196,8 @@ body{
 
 @media (max-width: 640px) {
     .spin-wheel {
-        width: 350px;
-        height: 350px;
+        width: 450px;
+        height: 450px;
     }
     .spin-wheel .spin {
         width: 50px;
@@ -205,15 +205,15 @@ body{
         font-size: 1rem;
     }
     .spin-wheel .wheel-container .wheel-item span {
-        font-size: 0.7rem;
+        font-size: 0.9rem;
         padding: 1.5rem;
     }
 }
 
 @media (max-width: 480px) {
     .spin-wheel {
-        width: 250px;
-        height: 250px;
+        width: 300px;
+        height: 300px;
     }
     .spin-wheel .spin {
         width: 45px;
@@ -221,7 +221,7 @@ body{
         font-size: 0.9rem;
     }
     .spin-wheel .wheel-container .wheel-item span {
-        font-size: 0.3rem;
+        font-size: 0.5rem;
         padding: 1.5rem;
     }
 }
